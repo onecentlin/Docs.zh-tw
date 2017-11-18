@@ -30,7 +30,7 @@ Razor 頁面是 ASP.NET Core MVC 的新功能，更容易編寫以頁面為焦�
 
 安裝 [.NET Core](https://www.microsoft.com/net/core) 2.0.0 或更新版本。
 
-如果您使用的是 Visual Studio，請安裝 [Visual Studio](https://www.visualstudio.com/vs/)2017 15.3 版本或更新版本，加上下列工作負載：
+如果您使用的是 Visual Studio，請安裝 [Visual Studio](https://www.visualstudio.com/vs/) 2017 15.3 版本或更新版本，加上下列工作負載：
 
 * **ASP.NET 與網頁程式開發**
 * **.NET Core 跨平台開發**
@@ -71,7 +71,7 @@ Razor 頁面是在 *Startup.cs* 中啟用：
 
 上述程式碼看起來很像 Razor 檢視檔案。 讓它不同的是 `@page` 指示詞。 `@page` 會將檔案轉換成 MVC 動作，這表示它會直接處理要求，不用透過控制器。 `@page` 必須是頁面上的第一個 Razor 指示詞。 `@page` 會影響其他的 Razor 建構行為。
 
-使用`PageModel`類別的類似頁面，顯示於下列兩個檔案中。 *Pages/Index2.cshtml* 檔案：
+使用 `PageModel` 類別的類似頁面，顯示於下列兩個檔案中。 *Pages/Index2.cshtml* 檔案：
 
 [!code-cshtml[main](index/sample/RazorPagesIntro/Pages/Index2.cshtml)]
 
