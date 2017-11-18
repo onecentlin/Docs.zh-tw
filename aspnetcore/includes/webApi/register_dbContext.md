@@ -1,6 +1,6 @@
 ## <a name="register-the-database-context"></a>登錄資料庫內容
 
-為了將資料庫內容插入至控制器中，我們需要向[相依性插入](xref:fundamentals/dependency-injection)容器登錄資料庫內容。 使用內建的[相依性插入](xref:fundamentals/dependency-injection)支援，向服務容器登錄資料庫內容。 以下列內容取代 *Startup.cs* 檔案的內容：
+為了將資料庫內容插入至控制器中，我們需要向[相依性注入](xref:fundamentals/dependency-injection)容器登錄資料庫內容。 使用內建的[相依性注入](xref:fundamentals/dependency-injection)支援，向服務容器登錄資料庫內容。 以下列內容取代 *Startup.cs* 檔案的內容：
 
 [!code-csharp[Main](../../tutorials/first-web-api/sample/TodoApi/Startup.cs?highlight=2,4,12)]
 
